@@ -6,6 +6,77 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/oneplus/avicii
 
 PRODUCT_COPY_FILES += \
+    vendor/oneplus/avicii/proprietary/odm/etc/libese-nxp.conf:$(TARGET_COPY_OUT_ODM)/etc/libese-nxp.conf \
+    vendor/oneplus/avicii/proprietary/odm/etc/libnfc-nci.conf:$(TARGET_COPY_OUT_ODM)/etc/libnfc-nci.conf \
+    vendor/oneplus/avicii/proprietary/odm/etc/libnfc-nxp-pnscr.conf:$(TARGET_COPY_OUT_ODM)/etc/libnfc-nxp-pnscr.conf \
+    vendor/oneplus/avicii/proprietary/odm/etc/nfc/libnfc-mtp-SN100.conf_19015:$(TARGET_COPY_OUT_ODM)/etc/nfc/libnfc-mtp-SN100.conf_19015 \
+    vendor/oneplus/avicii/proprietary/odm/etc/nfc/libnfc-mtp-SN100.conf_19101:$(TARGET_COPY_OUT_ODM)/etc/nfc/libnfc-mtp-SN100.conf_19101 \
+    vendor/oneplus/avicii/proprietary/odm/etc/nfc/libnfc-mtp-SN100.conf_19125:$(TARGET_COPY_OUT_ODM)/etc/nfc/libnfc-mtp-SN100.conf_19125 \
+    vendor/oneplus/avicii/proprietary/odm/etc/nfc/libnfc-mtp-SN100.conf_19191:$(TARGET_COPY_OUT_ODM)/etc/nfc/libnfc-mtp-SN100.conf_19191 \
+    vendor/oneplus/avicii/proprietary/odm/etc/nfc/libnfc-mtp-SN100.conf_19501:$(TARGET_COPY_OUT_ODM)/etc/nfc/libnfc-mtp-SN100.conf_19501 \
+    vendor/oneplus/avicii/proprietary/odm/etc/nfc/libnfc-mtp-SN100.conf_19521:$(TARGET_COPY_OUT_ODM)/etc/nfc/libnfc-mtp-SN100.conf_19521 \
+    vendor/oneplus/avicii/proprietary/odm/etc/nfc/libnfc-mtp-SN100.conf_19525:$(TARGET_COPY_OUT_ODM)/etc/nfc/libnfc-mtp-SN100.conf_19525 \
+    vendor/oneplus/avicii/proprietary/odm/etc/nfc/libnfc-mtp-SN100.conf_19591:$(TARGET_COPY_OUT_ODM)/etc/nfc/libnfc-mtp-SN100.conf_19591 \
+    vendor/oneplus/avicii/proprietary/odm/etc/nfc/libnfc-mtp-SN100.conf_20267:$(TARGET_COPY_OUT_ODM)/etc/nfc/libnfc-mtp-SN100.conf_20267 \
+    vendor/oneplus/avicii/proprietary/odm/etc/nfc/libnfc-nci.conf_19015:$(TARGET_COPY_OUT_ODM)/etc/nfc/libnfc-nci.conf_19015 \
+    vendor/oneplus/avicii/proprietary/odm/etc/nfc/libnfc-nci.conf_19101:$(TARGET_COPY_OUT_ODM)/etc/nfc/libnfc-nci.conf_19101 \
+    vendor/oneplus/avicii/proprietary/odm/etc/nfc/libnfc-nci.conf_19125:$(TARGET_COPY_OUT_ODM)/etc/nfc/libnfc-nci.conf_19125 \
+    vendor/oneplus/avicii/proprietary/odm/etc/nfc/libnfc-nci.conf_19191:$(TARGET_COPY_OUT_ODM)/etc/nfc/libnfc-nci.conf_19191 \
+    vendor/oneplus/avicii/proprietary/odm/etc/nfc/libnfc-nci.conf_19501:$(TARGET_COPY_OUT_ODM)/etc/nfc/libnfc-nci.conf_19501 \
+    vendor/oneplus/avicii/proprietary/odm/etc/nfc/libnfc-nci.conf_19521:$(TARGET_COPY_OUT_ODM)/etc/nfc/libnfc-nci.conf_19521 \
+    vendor/oneplus/avicii/proprietary/odm/etc/nfc/libnfc-nci.conf_19525:$(TARGET_COPY_OUT_ODM)/etc/nfc/libnfc-nci.conf_19525 \
+    vendor/oneplus/avicii/proprietary/odm/etc/nfc/libnfc-nci.conf_19591:$(TARGET_COPY_OUT_ODM)/etc/nfc/libnfc-nci.conf_19591 \
+    vendor/oneplus/avicii/proprietary/odm/etc/nfc/libnfc-nci.conf_20251:$(TARGET_COPY_OUT_ODM)/etc/nfc/libnfc-nci.conf_20251 \
+    vendor/oneplus/avicii/proprietary/odm/etc/nfc/libnfc-nci.conf_20267:$(TARGET_COPY_OUT_ODM)/etc/nfc/libnfc-nci.conf_20267 \
+    vendor/oneplus/avicii/proprietary/odm/etc/nfc/libnfc-nci.conf_20801:$(TARGET_COPY_OUT_ODM)/etc/nfc/libnfc-nci.conf_20801 \
+    vendor/oneplus/avicii/proprietary/odm/etc/nfc/libnfc-nxp.conf_20251:$(TARGET_COPY_OUT_ODM)/etc/nfc/libnfc-nxp.conf_20251 \
+    vendor/oneplus/avicii/proprietary/odm/etc/nfc/libnfc-nxp.conf_20801:$(TARGET_COPY_OUT_ODM)/etc/nfc/libnfc-nxp.conf_20801 \
+    vendor/oneplus/avicii/proprietary/odm/etc/nfc/libnfc-nxp_RF.conf_20251:$(TARGET_COPY_OUT_ODM)/etc/nfc/libnfc-nxp_RF.conf_20251 \
+    vendor/oneplus/avicii/proprietary/odm/etc/nfc/libnfc-nxp_RF.conf_20801:$(TARGET_COPY_OUT_ODM)/etc/nfc/libnfc-nxp_RF.conf_20801 \
+    vendor/oneplus/avicii/proprietary/odm/etc/nfc/libnfc_accesscard_config.conf_19015:$(TARGET_COPY_OUT_ODM)/etc/nfc/libnfc_accesscard_config.conf_19015 \
+    vendor/oneplus/avicii/proprietary/odm/etc/nfc/libnfc_accesscard_config.conf_19101:$(TARGET_COPY_OUT_ODM)/etc/nfc/libnfc_accesscard_config.conf_19101 \
+    vendor/oneplus/avicii/proprietary/odm/etc/nfc/libnfc_accesscard_config.conf_19125:$(TARGET_COPY_OUT_ODM)/etc/nfc/libnfc_accesscard_config.conf_19125 \
+    vendor/oneplus/avicii/proprietary/odm/etc/nfc/libnfc_accesscard_config.conf_19191:$(TARGET_COPY_OUT_ODM)/etc/nfc/libnfc_accesscard_config.conf_19191 \
+    vendor/oneplus/avicii/proprietary/odm/etc/nfc/libnfc_beijing_config.conf_19015:$(TARGET_COPY_OUT_ODM)/etc/nfc/libnfc_beijing_config.conf_19015 \
+    vendor/oneplus/avicii/proprietary/odm/etc/nfc/libnfc_beijing_config.conf_19101:$(TARGET_COPY_OUT_ODM)/etc/nfc/libnfc_beijing_config.conf_19101 \
+    vendor/oneplus/avicii/proprietary/odm/etc/nfc/libnfc_beijing_config.conf_19125:$(TARGET_COPY_OUT_ODM)/etc/nfc/libnfc_beijing_config.conf_19125 \
+    vendor/oneplus/avicii/proprietary/odm/etc/nfc/libnfc_beijing_config.conf_19191:$(TARGET_COPY_OUT_ODM)/etc/nfc/libnfc_beijing_config.conf_19191 \
+    vendor/oneplus/avicii/proprietary/odm/etc/nfc/libnfc_beijing_config.conf_19501:$(TARGET_COPY_OUT_ODM)/etc/nfc/libnfc_beijing_config.conf_19501 \
+    vendor/oneplus/avicii/proprietary/odm/etc/nfc/libnfc_beijing_config.conf_19521:$(TARGET_COPY_OUT_ODM)/etc/nfc/libnfc_beijing_config.conf_19521 \
+    vendor/oneplus/avicii/proprietary/odm/etc/nfc/libnfc_changsha_config.conf_19101:$(TARGET_COPY_OUT_ODM)/etc/nfc/libnfc_changsha_config.conf_19101 \
+    vendor/oneplus/avicii/proprietary/odm/etc/nfc/libnfc_changsha_config.conf_19191:$(TARGET_COPY_OUT_ODM)/etc/nfc/libnfc_changsha_config.conf_19191 \
+    vendor/oneplus/avicii/proprietary/odm/etc/nfc/libnfc_chongqing_config.conf_19125:$(TARGET_COPY_OUT_ODM)/etc/nfc/libnfc_chongqing_config.conf_19125 \
+    vendor/oneplus/avicii/proprietary/odm/etc/nfc/libnfc_dalian_config.conf_19125:$(TARGET_COPY_OUT_ODM)/etc/nfc/libnfc_dalian_config.conf_19125 \
+    vendor/oneplus/avicii/proprietary/odm/etc/nfc/libnfc_default_config.conf_19015:$(TARGET_COPY_OUT_ODM)/etc/nfc/libnfc_default_config.conf_19015 \
+    vendor/oneplus/avicii/proprietary/odm/etc/nfc/libnfc_default_config.conf_19101:$(TARGET_COPY_OUT_ODM)/etc/nfc/libnfc_default_config.conf_19101 \
+    vendor/oneplus/avicii/proprietary/odm/etc/nfc/libnfc_default_config.conf_19125:$(TARGET_COPY_OUT_ODM)/etc/nfc/libnfc_default_config.conf_19125 \
+    vendor/oneplus/avicii/proprietary/odm/etc/nfc/libnfc_default_config.conf_19191:$(TARGET_COPY_OUT_ODM)/etc/nfc/libnfc_default_config.conf_19191 \
+    vendor/oneplus/avicii/proprietary/odm/etc/nfc/libnfc_guangzhou_config.conf_19015:$(TARGET_COPY_OUT_ODM)/etc/nfc/libnfc_guangzhou_config.conf_19015 \
+    vendor/oneplus/avicii/proprietary/odm/etc/nfc/libnfc_guangzhou_config.conf_19101:$(TARGET_COPY_OUT_ODM)/etc/nfc/libnfc_guangzhou_config.conf_19101 \
+    vendor/oneplus/avicii/proprietary/odm/etc/nfc/libnfc_guangzhou_config.conf_19125:$(TARGET_COPY_OUT_ODM)/etc/nfc/libnfc_guangzhou_config.conf_19125 \
+    vendor/oneplus/avicii/proprietary/odm/etc/nfc/libnfc_guangzhou_config.conf_19191:$(TARGET_COPY_OUT_ODM)/etc/nfc/libnfc_guangzhou_config.conf_19191 \
+    vendor/oneplus/avicii/proprietary/odm/etc/nfc/libnfc_guangzhou_config.conf_19501:$(TARGET_COPY_OUT_ODM)/etc/nfc/libnfc_guangzhou_config.conf_19501 \
+    vendor/oneplus/avicii/proprietary/odm/etc/nfc/libnfc_guangzhou_config.conf_19521:$(TARGET_COPY_OUT_ODM)/etc/nfc/libnfc_guangzhou_config.conf_19521 \
+    vendor/oneplus/avicii/proprietary/odm/etc/nfc/libnfc_haerbin_config.conf_19125:$(TARGET_COPY_OUT_ODM)/etc/nfc/libnfc_haerbin_config.conf_19125 \
+    vendor/oneplus/avicii/proprietary/odm/etc/nfc/libnfc_hefei_config.conf_19101:$(TARGET_COPY_OUT_ODM)/etc/nfc/libnfc_hefei_config.conf_19101 \
+    vendor/oneplus/avicii/proprietary/odm/etc/nfc/libnfc_hefei_config.conf_19191:$(TARGET_COPY_OUT_ODM)/etc/nfc/libnfc_hefei_config.conf_19191 \
+    vendor/oneplus/avicii/proprietary/odm/etc/nfc/libnfc_lianyungang_config.conf_19015:$(TARGET_COPY_OUT_ODM)/etc/nfc/libnfc_lianyungang_config.conf_19015 \
+    vendor/oneplus/avicii/proprietary/odm/etc/nfc/libnfc_lianyungang_config.conf_19191:$(TARGET_COPY_OUT_ODM)/etc/nfc/libnfc_lianyungang_config.conf_19191 \
+    vendor/oneplus/avicii/proprietary/odm/etc/nfc/libnfc_nanjing_config.conf_19125:$(TARGET_COPY_OUT_ODM)/etc/nfc/libnfc_nanjing_config.conf_19125 \
+    vendor/oneplus/avicii/proprietary/odm/etc/nfc/libnfc_qingdao_config.conf_19125:$(TARGET_COPY_OUT_ODM)/etc/nfc/libnfc_qingdao_config.conf_19125 \
+    vendor/oneplus/avicii/proprietary/odm/etc/nfc/libnfc_shanghai_config.conf_19015:$(TARGET_COPY_OUT_ODM)/etc/nfc/libnfc_shanghai_config.conf_19015 \
+    vendor/oneplus/avicii/proprietary/odm/etc/nfc/libnfc_shanghai_config.conf_19191:$(TARGET_COPY_OUT_ODM)/etc/nfc/libnfc_shanghai_config.conf_19191 \
+    vendor/oneplus/avicii/proprietary/odm/etc/nfc/libnfc_shenzhen_config.conf_19015:$(TARGET_COPY_OUT_ODM)/etc/nfc/libnfc_shenzhen_config.conf_19015 \
+    vendor/oneplus/avicii/proprietary/odm/etc/nfc/libnfc_shenzhen_config.conf_19101:$(TARGET_COPY_OUT_ODM)/etc/nfc/libnfc_shenzhen_config.conf_19101 \
+    vendor/oneplus/avicii/proprietary/odm/etc/nfc/libnfc_shenzhen_config.conf_19125:$(TARGET_COPY_OUT_ODM)/etc/nfc/libnfc_shenzhen_config.conf_19125 \
+    vendor/oneplus/avicii/proprietary/odm/etc/nfc/libnfc_shenzhen_config.conf_19191:$(TARGET_COPY_OUT_ODM)/etc/nfc/libnfc_shenzhen_config.conf_19191 \
+    vendor/oneplus/avicii/proprietary/odm/etc/nfc/libnfc_shenzhen_config.conf_19501:$(TARGET_COPY_OUT_ODM)/etc/nfc/libnfc_shenzhen_config.conf_19501 \
+    vendor/oneplus/avicii/proprietary/odm/etc/nfc/libnfc_shenzhen_config.conf_19521:$(TARGET_COPY_OUT_ODM)/etc/nfc/libnfc_shenzhen_config.conf_19521 \
+    vendor/oneplus/avicii/proprietary/odm/etc/nfc/libnfc_shiyan_config.conf_19191:$(TARGET_COPY_OUT_ODM)/etc/nfc/libnfc_shiyan_config.conf_19191 \
+    vendor/oneplus/avicii/proprietary/odm/etc/nfc/libnfc_taizhou_config.conf_19125:$(TARGET_COPY_OUT_ODM)/etc/nfc/libnfc_taizhou_config.conf_19125 \
+    vendor/oneplus/avicii/proprietary/odm/etc/nfc/libnfc_xiamen_config.conf_19015:$(TARGET_COPY_OUT_ODM)/etc/nfc/libnfc_xiamen_config.conf_19015 \
+    vendor/oneplus/avicii/proprietary/odm/etc/nfc/libnfc_xiamen_config.conf_19125:$(TARGET_COPY_OUT_ODM)/etc/nfc/libnfc_xiamen_config.conf_19125 \
+    vendor/oneplus/avicii/proprietary/odm/etc/nfc/libnfc_xiamen_config.conf_19191:$(TARGET_COPY_OUT_ODM)/etc/nfc/libnfc_xiamen_config.conf_19191 \
     vendor/oneplus/avicii/proprietary/odm/etc/odm_feature_list:$(TARGET_COPY_OUT_ODM)/etc/odm_feature_list \
     vendor/oneplus/avicii/proprietary/vendor/bin/cnss-daemon:$(TARGET_COPY_OUT_VENDOR)/bin/cnss-daemon \
     vendor/oneplus/avicii/proprietary/vendor/bin/dashd:$(TARGET_COPY_OUT_VENDOR)/bin/dashd \
@@ -48,36 +119,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/avicii/proprietary/vendor/etc/init/ipa_fws.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/ipa_fws.rc \
     vendor/oneplus/avicii/proprietary/vendor/etc/init/vendor.oneplus.hardware.CameraMDMHIDL@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.oneplus.hardware.CameraMDMHIDL@1.0-service.rc \
     vendor/oneplus/avicii/proprietary/vendor/etc/init/vendor.oneplus.hardware.camera@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.oneplus.hardware.camera@1.0-service.rc \
-    vendor/oneplus/avicii/proprietary/vendor/etc/libese-nxp.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libese-nxp.conf \
-    vendor/oneplus/avicii/proprietary/vendor/etc/libnfc-nci_beijingbus.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nci_beijingbus.conf \
-    vendor/oneplus/avicii/proprietary/vendor/etc/libnfc-nci_changancard.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nci_changancard.conf \
-    vendor/oneplus/avicii/proprietary/vendor/etc/libnfc-nci_productline.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nci_productline.conf \
-    vendor/oneplus/avicii/proprietary/vendor/etc/libnfc-nci_shenzhentong.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nci_shenzhentong.conf \
-    vendor/oneplus/avicii/proprietary/vendor/etc/libnfc-nci_suzhoutong.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nci_suzhoutong.conf \
-    vendor/oneplus/avicii/proprietary/vendor/etc/libnfc-nci_wuhantong.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nci_wuhantong.conf \
-    vendor/oneplus/avicii/proprietary/vendor/etc/libnfc-nci_yangchengtong.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nci_yangchengtong.conf \
-    vendor/oneplus/avicii/proprietary/vendor/etc/libnfc-nci_zhengzhoubus.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nci_zhengzhoubus.conf \
-    vendor/oneplus/avicii/proprietary/vendor/etc/libnfc-nxp_RF.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nxp_RF.conf \
-    vendor/oneplus/avicii/proprietary/vendor/etc/libnfc-nxp_RF_beijingbus.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nxp_RF_beijingbus.conf \
-    vendor/oneplus/avicii/proprietary/vendor/etc/libnfc-nxp_RF_changancard.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nxp_RF_changancard.conf \
-    vendor/oneplus/avicii/proprietary/vendor/etc/libnfc-nxp_RF_noeSE.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nxp_RF_noeSE.conf \
-    vendor/oneplus/avicii/proprietary/vendor/etc/libnfc-nxp_RF_productline.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nxp_RF_productline.conf \
-    vendor/oneplus/avicii/proprietary/vendor/etc/libnfc-nxp_RF_productline_noeSE.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nxp_RF_productline_noeSE.conf \
-    vendor/oneplus/avicii/proprietary/vendor/etc/libnfc-nxp_RF_shenzhentong.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nxp_RF_shenzhentong.conf \
-    vendor/oneplus/avicii/proprietary/vendor/etc/libnfc-nxp_RF_suzhoutong.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nxp_RF_suzhoutong.conf \
-    vendor/oneplus/avicii/proprietary/vendor/etc/libnfc-nxp_RF_wuhantong.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nxp_RF_wuhantong.conf \
-    vendor/oneplus/avicii/proprietary/vendor/etc/libnfc-nxp_RF_yangchengtong.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nxp_RF_yangchengtong.conf \
-    vendor/oneplus/avicii/proprietary/vendor/etc/libnfc-nxp_RF_zhengzhoubus.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nxp_RF_zhengzhoubus.conf \
-    vendor/oneplus/avicii/proprietary/vendor/etc/libnfc-nxp_beijingbus.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nxp_beijingbus.conf \
-    vendor/oneplus/avicii/proprietary/vendor/etc/libnfc-nxp_changancard.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nxp_changancard.conf \
-    vendor/oneplus/avicii/proprietary/vendor/etc/libnfc-nxp_noeSE.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nxp_noeSE.conf \
-    vendor/oneplus/avicii/proprietary/vendor/etc/libnfc-nxp_productline.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nxp_productline.conf \
-    vendor/oneplus/avicii/proprietary/vendor/etc/libnfc-nxp_productline_noeSE.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nxp_productline_noeSE.conf \
-    vendor/oneplus/avicii/proprietary/vendor/etc/libnfc-nxp_shenzhentong.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nxp_shenzhentong.conf \
-    vendor/oneplus/avicii/proprietary/vendor/etc/libnfc-nxp_suzhoutong.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nxp_suzhoutong.conf \
-    vendor/oneplus/avicii/proprietary/vendor/etc/libnfc-nxp_wuhantong.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nxp_wuhantong.conf \
-    vendor/oneplus/avicii/proprietary/vendor/etc/libnfc-nxp_yangchengtong.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nxp_yangchengtong.conf \
-    vendor/oneplus/avicii/proprietary/vendor/etc/libnfc-nxp_zhengzhoubus.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nxp_zhengzhoubus.conf \
     vendor/oneplus/avicii/proprietary/vendor/etc/ltm_config_samsung_ams644vk04_fhd_cmd_mode_dsc_dsi_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/ltm_config_samsung_ams644vk04_fhd_cmd_mode_dsc_dsi_panel.xml \
     vendor/oneplus/avicii/proprietary/vendor/etc/qdcm_calib_data_samsung_ams644vk04_fhd_cmd_mode_dsc_dsi_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_samsung_ams644vk04_fhd_cmd_mode_dsc_dsi_panel.xml \
     vendor/oneplus/avicii/proprietary/vendor/etc/sensors/config/bitra_ak991x_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/bitra_ak991x_0.json \
@@ -402,7 +443,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/avicii/proprietary/vendor/lib/libcamxexternalformatutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamxexternalformatutils.so \
     vendor/oneplus/avicii/proprietary/vendor/lib/libdiracgefwrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdiracgefwrapper.so \
     vendor/oneplus/avicii/proprietary/vendor/lib/libdrc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdrc.so \
-    vendor/oneplus/avicii/proprietary/vendor/lib/libpn553_fw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpn553_fw.so \
     vendor/oneplus/avicii/proprietary/vendor/lib/libqtigef.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqtigef.so \
     vendor/oneplus/avicii/proprietary/vendor/lib/libssrec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libssrec.so \
     vendor/oneplus/avicii/proprietary/vendor/lib/libsurround_3mic_proc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsurround_3mic_proc.so \
@@ -654,7 +694,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/avicii/proprietary/vendor/lib64/libtriplecam_optical_zoom_control.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtriplecam_optical_zoom_control.so \
     vendor/oneplus/avicii/proprietary/vendor/lib64/libtriplecam_video_optical_zoom.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtriplecam_video_optical_zoom.so \
     vendor/oneplus/avicii/proprietary/vendor/lib64/libvl53l1_daemon.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvl53l1_daemon.so \
-    vendor/oneplus/avicii/proprietary/vendor/lib64/nfc_nci_nxp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/nfc_nci_nxp.so \
     vendor/oneplus/avicii/proprietary/vendor/lib64/sensors.hal.tof.so:$(TARGET_COPY_OUT_VENDOR)/lib64/sensors.hal.tof.so \
     vendor/oneplus/avicii/proprietary/vendor/lib64/soundfx/libasphere.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libasphere.so \
     vendor/oneplus/avicii/proprietary/vendor/lib64/soundfx/libaudiopreprocessing.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libaudiopreprocessing.so \
